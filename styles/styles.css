@@ -190,6 +190,57 @@ font-weight: 700;
 }
 
 
+/* Features-games */
+
+.feature-game{
+    display: flex;
+    gap: 24px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.gray{
+    text-align: center;
+    font-weight: 400px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.play-continer{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 120px;
+}
+
+.play-title{
+    color: #0B0223;
+
+font-size: 3rem;
+
+font-weight: 700;
+
+}
+
+.play-title-pink{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+
+font-size: 3rem;
+
+font-weight: 700;
+
+}
+.play-description{
+    
+}
+
+
 
 
 
@@ -213,7 +264,7 @@ font-weight: 700;
  
 /*mobile version*/
 @media screen and (max-width:576px) {
-    nav,nav>ul, .banner-container{
+    nav,nav>ul, .banner-container, .feature-game{
         flex-direction: column;
     }
     nav li{
@@ -228,6 +279,9 @@ font-weight: 700;
     } */
     .big-img{
         width: 500px;
+    }
+    .teature-game{
+    
     }
     
 }
