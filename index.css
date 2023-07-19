@@ -1,0 +1,304 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    font-family: Work Sans;
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 48px;
+    color: #FFF;
+    display: inline-block;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    box-shadow: 0px 10px 10px #f9f9f9;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 0px 16px;
+    }
+.menu div a{
+    text-decoration: none;
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.menu div{
+    padding: 10px;
+    background-color: #e7e6e9;
+   border-radius: 8px;
+}
+
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    background: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position:  -216px center;
+}
+.banner-heading{
+    padding: 100px 0px;
+}
+.banner-heading, .banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-heading h2{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-heading h3{
+    font-family: Work Sans;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.banner-heading p{
+    margin: 10px 0px;
+}
+
+
+.we-are-gamer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.we-are-gamer h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.we-are-gamer .gamer-text div{
+    margin: 20px 0px;
+}
+.gamer-text {
+    text-align: end;
+    width: 43%;
+}
+.gamer-img{
+    width: 57%;
+}
+.gamer-img img{
+    width: 100%;
+}
+
+
+.online-game{
+    padding: 50px 200px;
+}
+.online-game h1 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.game-item-inner-1{grid-area: game-item-inner-1;}
+.game-item-inner-2{grid-area: game-item-inner-2;}
+.game-item-inner-3{grid-area: game-item-inner-3;}
+.game-item-inner-4{grid-area: game-item-inner-4;}
+.game-item-container{
+    display: grid;
+    grid-template-areas: 
+    "game-item-inner-1 game-item-inner-2 game-item-inner-3 game-item-inner-4";
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.game-item-img{
+    position: relative;
+    height: 300px;
+}
+.hover-effect{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.603);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+.game-item-img:hover  .hover-effect{
+    visibility: visible;
+    opacity: 1;
+}
+
+.Play-Instantly{
+    padding: 50px 200px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.Play-Instantly-text{
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+.Play-Instantly-text, .Play-Instantly-img {
+    width: 50%;
+}
+.Play-Instantly-img .img-1{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Play-Instantly-img div{
+    position: relative;
+}
+.Play-Instantly-img .img-2 {
+    width: 200px;
+    position: absolute;
+    left: -80px;
+    bottom: -50px;
+}
+
+
+
+
+
+.game-item-list{
+    padding: 100px 0px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.game-list-icon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    background-color: #FFF;
+    padding:5px 10px;
+    border-radius: 50px;
+}
+.game-list-icon:hover{
+    border: 1px solid #F948B2;
+    transition: all .3s;
+}
+.game-list-icon:hover p{
+    color:  #F948B2;
+    transition: all .3s;
+}
+ 
+ footer{
+    padding: 50px 20px;
+    background: #0B0223;
+ }
+.footer-menu-item-1{grid-area: footer-menu-item-1;}
+.footer-menu-item-2{grid-area: footer-menu-item-2;}
+.footer-menu-item-3{grid-area: footer-menu-item-3;}
+.footer-menu-item-4{grid-area: footer-menu-item-4;}
+.footer-menu-item-5{grid-area: footer-menu-item-5;}
+.footer-menu-item-6{grid-area: footer-menu-item-6;}
+.footer-menu{
+    display: grid;
+    grid-template-areas: 
+    "footer-menu-item-1 footer-menu-item-2 footer-menu-item-3 footer-menu-item-4 footer-menu-item-5 footer-menu-item-6";
+    justify-content: center;
+    gap:0px 30px;
+    margin: 20px 0px;
+}
+.footer-menu a{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.12rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+.terms-condition{grid-area: terms-condition ;}
+.privacy{grid-area: privacy;}
+.cookie{grid-area: cookie;}
+.pri-setting{grid-area: pri-setting;}
+.terms{
+    display: grid;
+    grid-template-areas:
+    "terms-condition privacy cookie pri-setting";
+    justify-content: center;
+    gap: 30px;
+}
+.terms a{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
